@@ -65,6 +65,11 @@ but you'll have to implement those three above instructions first!
 * Read this whole file.
 * Skim the spec.
 
+    ls8.py: calls functions from cpu.py to load and run
+    cpu.py: holds funtions to the cpu funtionality
+    ls8 examples(folder): binary strings for the functions being called in ls8.py
+
+
 ## Step 1: Add the constructor to `cpu.py`
 
 Add list properties to the `CPU` class to hold 256 bytes of memory and 8
